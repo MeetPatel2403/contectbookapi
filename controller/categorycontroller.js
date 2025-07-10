@@ -14,7 +14,7 @@ exports.insert_category = async (req, res) => {
                 })
             await storage.setItem('category_id',data._id)
                 
-
+// hii
         }
         else{
             res.status(200).json({
